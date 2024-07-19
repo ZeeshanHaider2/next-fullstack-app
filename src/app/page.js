@@ -16,6 +16,8 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center  p-24">
       <h1>Homepage</h1>
       <Link href={"/profile"}>Link to Profile</Link>
+      <Link href={"/posts/1"}>Link to Post # 1</Link>
+      <Link href={"/profile/setting"}>Link to Profile settings</Link>
       <br />
       <button onClick={handleNavigation}>
         Link to Post using useRouter hooks
